@@ -1,0 +1,21 @@
+.rounded-3 {
+    border-radius: var(--bs-border-radius-lg) !important;
+  }
+  .bg-light {
+    --bs-bg-opacity: 1;
+    /* background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity)) !important; */
+    background-image: url(/img/bg.jpg) !important;
+  }
+  .p-5 {
+    padding: 3rem !important;
+  }
+  .mb-4 {
+    margin-bottom: 1.5rem !important;
+  }
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }
+  .input-group-append {
+    cursor: pointer;
+  }
+  
